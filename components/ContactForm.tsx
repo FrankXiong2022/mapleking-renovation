@@ -53,7 +53,7 @@ const ContactForm: React.FC = () => {
           <div className="md:w-1/2 bg-brightBlue p-12 text-white flex flex-col justify-center">
             <h2 className="text-4xl font-black mb-6">Get a Free Estimate</h2>
             <p className="text-lg opacity-90 mb-8">Start your basement transformation today with Toronto's specialist team.</p>
-          </div>
+          </div> 
           
           <div className="md:w-1/2 p-12">
             {/* 这里的 name="contact" 和 data-netlify="true" 是 Netlify 识别表单的关键 */}
