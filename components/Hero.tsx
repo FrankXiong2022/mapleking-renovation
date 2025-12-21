@@ -3,18 +3,19 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <div className="relative h-[650px] flex items-center justify-center overflow-hidden">
-      {/* 背景图片层：包含楼梯、高窗、厨房和客厅的完美地下室 */}
+      {/* Background Image Layer: Modern Basement/Living Area */}
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1512918766465-ad3293914061?q=80&w=2070&auto=format&fit=crop")',
-          backgroundPosition: 'center 30%',
+          // I updated the photo URL here to a high-end modern interior
+          backgroundImage: 'url("https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=2070&auto=format&fit=crop")',
+          backgroundPosition: 'center 40%',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
         }}
       >
-        {/* 蒙层：确保白色文字清晰可见 */}
-        <div className="absolute inset-0 bg-black/35"></div>
+        {/* Overlay: Ensuring white text is readable */}
+        <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -49,7 +50,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        {/* 右侧特点卡片保持不变 */}
+        {/* Right Side Feature Card */}
         <div className="absolute right-4 bottom-10 hidden lg:block">
           <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 shadow-2xl">
             <h3 className="text-white text-xl font-bold mb-6">Why Choose MapleKing?</h3>
