@@ -22,14 +22,14 @@ const Hero: React.FC = () => {
         {/* MOVED: Why Choose MapleKing? card to the Top Right Corner */}
         <div className="absolute top-10 right-4 hidden lg:block">
           <div className="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 shadow-2xl">
-            <h3 className="text-white text-lg font-bold mb-4">Why Choose MapleKing?</h3>
+            <h3 className="text-blue-600 text-lg font-bold mb-4">Why Choose MapleKing?</h3>
             <ul className="space-y-3">
               {[
                 'Free 3D Design Preview',
                 'Fixed Timeline Guarantee',
                 'Premium Quality Materials'
               ].map((item, i) => (
-                <li key={i} className="flex items-center gap-3 text-white text-sm">
+                <li key={i} className="flex items-center gap-3 text-blue-600 text-sm font-semibold">
                   <div className="bg-blue-500 rounded-full p-1">
                     <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={4} d="M5 13l4 4L19 7" />
