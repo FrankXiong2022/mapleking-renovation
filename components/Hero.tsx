@@ -3,10 +3,10 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <div className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* 背景图片层 */}
+      {/* 背景图片层 - 已换回你最满意的地下室实景图 */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80"
+          src="https://images.unsplash.com/photo-1512918766674-ed62b9ae6a1e?auto=format&fit=crop&q=80"
           alt="Modern Renovated Basement"
           className="w-full h-full object-cover"
         />
@@ -22,7 +22,6 @@ const Hero: React.FC = () => {
               Serving GTA & Surrounding Areas
             </div>
 
-            {/* 这里加入了你要求的信任标签 */}
             <div className="flex flex-wrap gap-4 mb-6 text-sm font-bold uppercase tracking-widest text-gray-300">
               <span>Quality Renovation</span>
               <span className="text-brightBlue">•</span>
@@ -41,7 +40,6 @@ const Hero: React.FC = () => {
               Professional basement renovation specialists serving the GTA.
             </p>
 
-            {/* 蓝色按钮：已修改为你要的长标题，并指向底部表单 */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="#contact-section"
@@ -52,14 +50,13 @@ const Hero: React.FC = () => {
             </div>
           </div>
 
-          {/* 右侧业务亮点展示 */}
+          {/* 右侧业务亮点展示 - 已移除 License 选项 */}
           <div className="md:w-1/2 w-full max-w-md">
             <div className="bg-white/10 backdrop-blur-xl p-8 rounded-3xl border border-white/20 shadow-2xl">
               <h3 className="text-2xl font-bold text-white mb-6">Why Choose MapleKing?</h3>
               <ul className="space-y-4">
                 {[
                   'Free 3D Design Preview',
-                  'Licensed & Insured Experts',
                   'Fixed Timeline Guarantee',
                   'Premium Quality Materials'
                 ].map((item, index) => (
