@@ -88,7 +88,7 @@ const ContactForm: React.FC = () => {
               >
                 {loading ? "Sending..." : "Send Request"}
               </button>
-            </form>
+            </form> 
           </div>
         </div>
       </div>
