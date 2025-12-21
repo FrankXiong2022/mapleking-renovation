@@ -2,73 +2,75 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* 背景图片层 - 已换回你最喜欢的地下室实景图 */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src="https://images.unsplash.com/photo-1512918766674-ed62b9ae6a1e?auto=format&fit=crop&q=80"
-          alt="Modern Renovated Basement"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/50"></div>
+    <div className="relative h-[600px] flex items-center justify-center overflow-hidden">
+      {/* 背景图片层 */}
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: 'url("https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=2070&auto=format&fit=crop")',
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        {/* 遮罩层，确保文字清晰 */}
+        <div className="absolute inset-0 bg-black/30"></div>
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
-        <div className="flex flex-col md:flex-row items-center gap-12">
+      {/* 内容层 */}
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="max-w-2xl text-white">
+          <div className="inline-block bg-blue-600/20 backdrop-blur-sm px-4 py-1 rounded-full text-blue-400 font-medium mb-6">
+            Serving GTA & Surrounding Areas
+          </div>
           
-          {/* 左侧文字信息区 */}
-          <div className="md:w-1/2 text-white">
-            <div className="inline-block px-4 py-2 bg-brightBlue/20 backdrop-blur-md rounded-full text-brightBlue font-semibold mb-6">
-              Serving GTA & Surrounding Areas
-            </div>
-
-            <div className="flex flex-wrap gap-4 mb-6 text-sm font-bold uppercase tracking-widest text-gray-300">
-              <span>Quality Renovation</span>
-              <span className="text-brightBlue">•</span>
-              <span>Honest Work</span>
-              <span className="text-brightBlue">•</span>
-              <span>Real Results</span>
-            </div>
-            
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
-              Bright · Faster · <br />
-              <span className="text-brightBlue">Affordable</span>
-            </h1>
-            
-            <p className="text-xl text-gray-200 mb-10 leading-relaxed max-w-xl">
-              Transform your basement into a bright, functional living space. 
-              Professional basement renovation specialists serving the GTA.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a 
-                href="#contact-section"
-                className="px-8 py-4 bg-brightBlue text-white rounded-xl font-bold text-lg hover:bg-blue-600 transition-all shadow-lg shadow-blue-500/25 text-center"
-              >
-                Get a Free 3D Design & Free Estimate
-              </a>
-            </div>
+          <div className="flex items-center gap-3 text-sm font-semibold tracking-widest uppercase mb-4 opacity-80">
+            <span>Quality Renovation</span>
+            <span className="w-1 h-1 bg-blue-500 rounded-full"></span>
+            <span>Honest Work</span>
+            <span className="w-1 h-1 bg-blue-500 rounded-full"></span>
+            <span>Real Results</span>
           </div>
 
-          {/* 右侧业务亮点展示 - 已移除 License 选项 */}
-          <div className="md:w-1/2 w-full max-w-md">
-            <div className="bg-white/10 backdrop-blur-xl p-8 rounded-3xl border border-white/20 shadow-2xl">
-              <h3 className="text-2xl font-bold text-white mb-6">Why Choose MapleKing?</h3>
-              <ul className="space-y-4">
-                {[
-                  'Free 3D Design Preview',
-                  'Fixed Timeline Guarantee',
-                  'Premium Quality Materials'
-                ].map((item, index) => (
-                  <li key={index} className="flex items-center text-white text-lg">
-                    <span className="w-6 h-6 bg-brightBlue rounded-full flex items-center justify-center mr-3 text-sm">✓</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+          <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
+            Bright <span className="text-white/50">•</span> Faster <span className="text-white/50">•</span>
+            <br />
+            <span className="text-blue-500">Affordable</span>
+          </h1>
 
+          <p className="text-xl text-gray-200 mb-10 max-w-lg leading-relaxed">
+            Transform your basement into a bright, functional living space. 
+            Professional basement renovation specialists serving the GTA.
+          </p>
+
+          <div className="flex flex-wrap gap-4">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl shadow-blue-600/20">
+              Get a Free 3D Design & Free Estimate
+            </button>
+          </div>
+        </div>
+
+        {/* 右侧特点列表 */}
+        <div className="absolute right-4 bottom-10 hidden lg:block">
+          <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 shadow-2xl">
+            <h3 className="text-white text-xl font-bold mb-6">Why Choose MapleKing?</h3>
+            <ul className="space-y-4">
+              {[
+                'Free 3D Design Preview',
+                'Fixed Timeline Guarantee',
+                'Premium Quality Materials'
+              ].map((item, i) => (
+                <li key={i} className="flex items-center gap-3 text-white">
+                  <div className="bg-blue-500 rounded-full p-1">
+                    <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <span className="font-medium">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </div>
