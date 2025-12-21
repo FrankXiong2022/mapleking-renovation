@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
           <a href="#services" className="hover:text-brightBlue transition-colors">Services</a>
           <a href="#workflow" className="hover:text-brightBlue transition-colors">Process</a>
           <a href="#contact-section" className="bg-brightBlue text-white px-5 py-2.5 rounded-full hover:bg-blue-600 transition-all shadow-md active:scale-95">
-            Free Estimate
+            Get a Free 3D Design & Free Estimate
           </a>
         </nav>
         
