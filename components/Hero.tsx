@@ -3,21 +3,21 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <div className="relative h-[600px] flex items-center justify-center overflow-hidden">
-      {/* 背景图片层 - 替换为专业的地下室楼梯背景 */}
+      {/* 背景图片层 - 挑选了带楼梯且无人的专业地下室翻新图 */}
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1513366208864-b763c8984bd1?q=80&w=2070&auto=format&fit=crop")',
+          backgroundImage: 'url("https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?q=80&w=2070&auto=format&fit=crop")',
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
         }}
       >
-        {/* 遮罩层 - 稍微加深一点点，让文字更跳出来 */}
-        <div className="absolute inset-0 bg-black/35"></div>
+        {/* 黑色遮罩，确保文字在任何图片背景下都清晰可见 */}
+        <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
-      {/* 内容层 - 保持原有文字和布局不变 */}
+      {/* 内容层 - 保持您的文字、按钮和布局完全不动 */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl text-white">
           <div className="inline-block bg-blue-600/20 backdrop-blur-sm px-4 py-1 rounded-full text-blue-400 font-medium mb-6">
@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        {/* 右侧特点列表 - 保持不变 */}
+        {/* 右侧特点列表卡片 */}
         <div className="absolute right-4 bottom-10 hidden lg:block">
           <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 shadow-2xl">
             <h3 className="text-white text-xl font-bold mb-6">Why Choose MapleKing?</h3>
