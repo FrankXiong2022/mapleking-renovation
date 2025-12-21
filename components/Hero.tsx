@@ -3,17 +3,17 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <div className="relative h-[650px] flex items-center justify-center overflow-hidden">
-      {/* 背景图片层 - 包含楼梯、高窗、开放式厨房和生活区的高级地下室 */}
+      {/* 背景图片层：包含楼梯、高窗、厨房和客厅的完美地下室 */}
       <div 
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: 'url("https://images.unsplash.com/photo-1512918766465-ad3293914061?q=80&w=2070&auto=format&fit=crop")',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center 30%',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
         }}
       >
-        {/* 遮罩层 - 确保文字在复杂的室内背景下依然清晰 */}
+        {/* 蒙层：确保白色文字清晰可见 */}
         <div className="absolute inset-0 bg-black/35"></div>
       </div>
 
@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        {/* 右侧卡片保持不变 */}
+        {/* 右侧特点卡片保持不变 */}
         <div className="absolute right-4 bottom-10 hidden lg:block">
           <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 shadow-2xl">
             <h3 className="text-white text-xl font-bold mb-6">Why Choose MapleKing?</h3>
