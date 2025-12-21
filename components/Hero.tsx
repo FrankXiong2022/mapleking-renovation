@@ -3,7 +3,7 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <div className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* 背景图片层 - 已换回你最满意的地下室实景图 */}
+      {/* 背景图片层 - 已换回你最喜欢的地下室实景图 */}
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1512918766674-ed62b9ae6a1e?auto=format&fit=crop&q=80"
