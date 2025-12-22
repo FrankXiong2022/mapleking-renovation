@@ -12,12 +12,12 @@ const spaces = [
   },
   { 
     label: "Cozy Guest Bedroom", 
-    // Reverted to windowless basement style
+    // Reverted to the basement bedroom with no outside windows
     img: "https://images.unsplash.com/photo-1505693419173-42b925886270?q=80&w=800&auto=format&fit=crop" 
   },
   { 
     label: "Modern Bathroom", 
-    // Reverted to basement bathroom (no windows)
+    // Reverted to the basement bathroom with no windows
     img: "https://images.unsplash.com/photo-1620626011761-9963d7b69763?q=80&w=800&auto=format&fit=crop" 
   },
   { 
@@ -26,7 +26,7 @@ const spaces = [
   },
   { 
     label: "Home Office", 
-    // Reverted to clean professional office
+    // Reverted to the clean basement office style
     img: "https://images.unsplash.com/photo-1497215842964-222b430dc094?q=80&w=800&auto=format&fit=crop" 
   },
 ];
