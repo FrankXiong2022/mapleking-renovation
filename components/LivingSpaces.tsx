@@ -4,30 +4,28 @@ import React from 'react';
 const spaces = [
   { 
     label: "Modern Living Area", 
-    img: "https://images.unsplash.com/photo-1558603668-6570496b66f8?q=80&w=800&auto=format&fit=crop" 
+    // Adding &w=1000 makes the file smaller and faster
+    img: "https://images.unsplash.com/photo-1558603668-6570496b66f8?q=80&w=1000&auto=format&fit=crop" 
   },
   { 
     label: "Basement Kitchenette", 
-    img: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?q=80&w=800&auto=format&fit=crop" 
+    img: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?q=80&w=1000&auto=format&fit=crop" 
   },
   { 
     label: "Cozy Guest Bedroom", 
-    // Reverted to the basement bedroom with no outside windows
-    img: "https://images.unsplash.com/photo-1505693419173-42b925886270?q=80&w=800&auto=format&fit=crop" 
+    img: "https://images.unsplash.com/photo-1505693419173-42b925886270?q=80&w=1000&auto=format&fit=crop" 
   },
   { 
     label: "Modern Bathroom", 
-    // Reverted to the basement bathroom with no windows
-    img: "https://images.unsplash.com/photo-1620626011761-9963d7b69763?q=80&w=800&auto=format&fit=crop" 
+    img: "https://images.unsplash.com/photo-1620626011761-9963d7b69763?q=80&w=1000&auto=format&fit=crop" 
   },
   { 
     label: "Entertainment Space", 
-    img: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop" 
+    img: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1000&auto=format&fit=crop" 
   },
   { 
     label: "Home Office", 
-    // Reverted to the clean basement office style
-    img: "https://images.unsplash.com/photo-1497215842964-222b430dc094?q=80&w=800&auto=format&fit=crop" 
+    img: "https://images.unsplash.com/photo-1497215842964-222b430dc094?q=80&w=1000&auto=format&fit=crop" 
   },
 ];
 
