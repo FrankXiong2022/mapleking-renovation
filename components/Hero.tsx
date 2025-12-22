@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
       </div>
             
       <div className="container mx-auto px-4 relative z-10 flex flex-col justify-center h-full">
-        <p className="text-white text-sm font-bold mb-4 tracking-widest uppercase opacity-90">QUALITY RENOVATION • HONEST WORK • REAL RESULTS</p>
+       
         {/* MOVED: Why Choose MapleKing? card to the Top Right Corner */}
         <div className="absolute top-10 right-4 hidden lg:block">
           <div className="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 shadow-2xl">
@@ -49,14 +49,7 @@ const Hero: React.FC = () => {
             Serving GTA & Surrounding Areas
           </div>
           
-          <div className="flex items-center gap-3 text-sm font-semibold tracking-widest uppercase mb-4 text-blue-400">
-            <span>Quality Renovation</span>
-            <span className="w-1 h-1 bg-white rounded-full"></span>
-            <span>Honest Work</span>
-            <span className="w-1 h-1 bg-white rounded-full"></span>
-            <span>Real Results</span>
-          </div>
-
+        <p className="text-white text-sm font-bold mb-4 tracking-widest uppercase opacity-90">QUALITY RENOVATION • HONEST WORK • REAL RESULTS</p>
           <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
             Bright <span className="text-white/50">•</span> Faster <span className="text-white/50">•</span>
             <br />
