@@ -12,8 +12,8 @@ const spaces = [
   },
   { 
     label: "Cozy Guest Bedroom", 
-    // High-quality basement bedroom featuring a high horizontal window
-    img: "https://images.unsplash.com/photo-1505692795793-20f5457ad507?q=80&w=800&auto=format&fit=crop" 
+    // FIXED: Reliable link to a basement bedroom with high windows and warm lighting
+    img: "https://images.unsplash.com/photo-1512918583167-02bd09b3f681?q=80&w=800&auto=format&fit=crop" 
   },
   { 
     label: "Modern Bathroom", 
@@ -25,8 +25,8 @@ const spaces = [
   },
   { 
     label: "Home Office", 
-    // Basement office setup with a desk, computer, and a high window
-    img: "https://images.unsplash.com/photo-1497215842964-222b430dc094?q=80&w=800&auto=format&fit=crop" 
+    // FIXED: Professional basement office with desk setup and a high window
+    img: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop" 
   },
 ];
 
