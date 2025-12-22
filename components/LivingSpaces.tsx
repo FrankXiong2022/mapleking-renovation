@@ -12,8 +12,8 @@ const spaces = [
   },
   { 
     label: "A Cozy Bedroom", 
-    // FIXED: Bright basement bedroom with high windows near the ceiling
-    img: "https://images.unsplash.com/photo-1512918766755-ee50f14d9b4c?q=80&w=800&auto=format&fit=crop" 
+    // BRIGHT BASEMENT BEDROOM WITH A HIGH HORIZONTAL WINDOW
+    img: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop" 
   },
   { 
     label: "Modern Bathroom", 
@@ -25,7 +25,7 @@ const spaces = [
   },
   { 
     label: "Home Office", 
-    // FIXED: Bright basement workspace with a high window for natural light
+    // BRIGHT BASEMENT OFFICE WITH A HIGH WINDOW NEAR CEILING
     img: "https://images.unsplash.com/photo-1518455027359-f3fdffdf75c6?q=80&w=800&auto=format&fit=crop" 
   },
 ];
