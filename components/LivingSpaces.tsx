@@ -24,8 +24,8 @@ const spaces = [
   },
   { 
     label: "Home Office", 
-    // NEW BRIGHT BASEMENT OFFICE WITH HIGH-SET WINDOW NEAR CEILING
-    img: "https://images.unsplash.com/photo-1518455027359-f3fdffdf75c6?q=80&w=800&auto=format&fit=crop" 
+    // FIXED: Bright basement office with high-set window near the ceiling
+    img: "https://images.unsplash.com/photo-1497215842964-222b430dc094?q=80&w=800&auto=format&fit=crop" 
   },
 ];
 
