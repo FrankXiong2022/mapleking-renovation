@@ -7,13 +7,13 @@ const spaces = [
     img: "https://images.unsplash.com/photo-1558603668-6570496b66f8?q=80&w=800&auto=format&fit=crop" 
   },
   { 
-    label: "Basement Kitchenette", 
+    label: "Basement Kitchen", 
     img: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?q=80&w=800&auto=format&fit=crop" 
   },
   { 
-    label: "Cozy Guest Bedroom", 
-    // FIXED: Reliable link to a basement bedroom with high windows and warm lighting
-    img: "https://images.unsplash.com/photo-1512918583167-02bd09b3f681?q=80&w=800&auto=format&fit=crop" 
+    label: "A Cozy Bedroom", 
+    // NEW: Small, high basement window near the ceiling
+    img: "https://images.unsplash.com/photo-1512918766755-ee50f14d9b4c?q=80&w=800&auto=format&fit=crop" 
   },
   { 
     label: "Modern Bathroom", 
@@ -25,8 +25,8 @@ const spaces = [
   },
   { 
     label: "Home Office", 
-    // FIXED: Professional basement office with desk setup and a high window
-    img: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop" 
+    // NEW: Proper basement office with high windows and professional desk
+    img: "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=800&auto=format&fit=crop" 
   },
 ];
 
