@@ -16,11 +16,9 @@ const Hero: React.FC = () => {
         {/* Global overlay: Made much lighter (bg-black/10) to show the stairs clearly */}
         <div className="absolute inset-0 bg-black/10"></div>
       </div>
-      
-      <p className="text-white text-sm font-bold mb-4 tracking-widest uppercase opacity-90">QUALITY RENOVATION • HONEST WORK • REAL RESULTS</p>
-      
+            
       <div className="container mx-auto px-4 relative z-10 flex flex-col justify-center h-full">
-        
+        <p className="text-white text-sm font-bold mb-4 tracking-widest uppercase opacity-90">QUALITY RENOVATION • HONEST WORK • REAL RESULTS</p>
         {/* MOVED: Why Choose MapleKing? card to the Top Right Corner */}
         <div className="absolute top-10 right-4 hidden lg:block">
           <div className="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 shadow-2xl">
