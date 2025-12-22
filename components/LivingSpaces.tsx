@@ -24,7 +24,7 @@ const spaces = [
   },
   { 
     label: "Home Office", 
-    // FIXED: Bright basement office with a clear high window near the ceiling
+    // FIXED: Bright basement office with authentic high-set window near the ceiling
     img: "https://images.unsplash.com/photo-1512918766755-ee50f14d9b4c?q=80&w=800&auto=format&fit=crop" 
   },
 ];
