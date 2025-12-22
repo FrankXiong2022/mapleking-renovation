@@ -2,12 +2,30 @@
 import React from 'react';
 
 const spaces = [
-  { label: "Modern Living Area", img: "https://images.unsplash.com/photo-1512918766465-ad3293914061?q=80&w=2070&auto=format&fit=crop" },
-  { label: "Basement Kitchenette", img: "https://images.unsplash.com/photo-1556912170-4537da3969c4?q=80&w=2070&auto=format&fit=crop" },
-  { label: "Cozy Guest Bedroom", img: "https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=2070&auto=format&fit=crop" },
-  { label: "Modern Bathroom", img: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop" },
-  { label: "Entertainment Space", img: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070&auto=format&fit=crop" },
-  { label: "Home Office", img: "https://images.unsplash.com/photo-1539632346654-dd4c3cffad8c?q=80&w=2070&auto=format&fit=crop" },
+  { 
+    label: "Modern Living Area", 
+    img: "https://images.unsplash.com/photo-1512918766465-ad3293914061?q=80&w=2070&auto=format&fit=crop" 
+  },
+  { 
+    label: "Basement Kitchenette", 
+    img: "https://images.unsplash.com/photo-1556912170-4537da3969c4?q=80&w=2070&auto=format&fit=crop" 
+  },
+  { 
+    label: "Cozy Guest Bedroom", 
+    img: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=2070&auto=format&fit=crop" 
+  },
+  { 
+    label: "Modern Bathroom", 
+    img: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop" 
+  },
+  { 
+    label: "Entertainment Space", 
+    img: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070&auto=format&fit=crop" 
+  },
+  { 
+    label: "Home Office", 
+    img: "https://images.unsplash.com/photo-1539632346654-dd4c3cffad8c?q=80&w=2070&auto=format&fit=crop" 
+  },
 ];
 
 const LivingSpaces: React.FC = () => {
