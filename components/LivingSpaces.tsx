@@ -12,7 +12,6 @@ const spaces = [
   },
   { 
     label: "A Cozy Bedroom", 
-    // BRIGHT BASEMENT BEDROOM WITH A HIGH HORIZONTAL WINDOW
     img: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800&auto=format&fit=crop" 
   },
   { 
@@ -25,7 +24,7 @@ const spaces = [
   },
   { 
     label: "Home Office", 
-    // BRIGHT BASEMENT OFFICE WITH A HIGH WINDOW NEAR CEILING
+    // NEW BRIGHT BASEMENT OFFICE WITH HIGH-SET WINDOW NEAR CEILING
     img: "https://images.unsplash.com/photo-1518455027359-f3fdffdf75c6?q=80&w=800&auto=format&fit=crop" 
   },
 ];
