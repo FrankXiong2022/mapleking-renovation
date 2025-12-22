@@ -4,19 +4,19 @@ import React from 'react';
 const spaces = [
   { 
     label: "Modern Living Area", 
-    img: "https://images.unsplash.com/photo-1512918766465-ad3293914061?q=80&w=2070&auto=format&fit=crop" 
+    img: "https://images.unsplash.com/photo-1594498653385-d5172c532c00?q=80&w=2070&auto=format&fit=crop" 
   },
   { 
     label: "Basement Kitchenette", 
-    img: "https://images.unsplash.com/photo-1556912170-4537da3969c4?q=80&w=2070&auto=format&fit=crop" 
+    img: "https://images.unsplash.com/photo-1505773508401-e26ca9845131?q=80&w=2070&auto=format&fit=crop" 
   },
   { 
     label: "Cozy Guest Bedroom", 
-    img: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=2070&auto=format&fit=crop" 
+    img: "https://images.unsplash.com/photo-1512918583167-02bd09b3f681?q=80&w=2070&auto=format&fit=crop" 
   },
   { 
     label: "Modern Bathroom", 
-    img: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop" 
+    img: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=2070&auto=format&fit=crop" 
   },
   { 
     label: "Entertainment Space", 
