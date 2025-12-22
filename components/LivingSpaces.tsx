@@ -7,13 +7,13 @@ const spaces = [
     img: "https://images.unsplash.com/photo-1558603668-6570496b66f8?q=80&w=800&auto=format&fit=crop" 
   },
   { 
-    label: "Basement Kitchen", 
+    label: "Basement Kitchenette", 
     img: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?q=80&w=800&auto=format&fit=crop" 
   },
   { 
-    label: "A Cozy Bedroom", 
-    // FINAL FIX: High-end basement bedroom with warm lighting and no windows
-    img: "https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=800&auto=format&fit=crop" 
+    label: "Cozy Guest Bedroom", 
+    // NEW: Real basement bedroom with a high window
+    img: "https://images.unsplash.com/photo-1505692795793-20f5457ad507?q=80&w=800&auto=format&fit=crop" 
   },
   { 
     label: "Modern Bathroom", 
@@ -25,7 +25,8 @@ const spaces = [
   },
   { 
     label: "Home Office", 
-    img: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop" 
+    // NEW: Proper home office with a desk and a high window
+    img: "https://images.unsplash.com/photo-1489769002229-12e7d9ad69cf?q=80&w=800&auto=format&fit=crop" 
   },
 ];
 
