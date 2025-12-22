@@ -12,21 +12,20 @@ const spaces = [
   },
   { 
     label: "Cozy Guest Bedroom", 
-    // NEW: Proper windowless basement bedroom
+    // NEW: Real basement bedroom with no windows and professional lighting
     img: "https://images.unsplash.com/photo-1512918583167-02bd09b3f681?q=80&w=800&auto=format&fit=crop" 
   },
   { 
     label: "Modern Bathroom", 
-    // NEW: Proper windowless basement bathroom
     img: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=800&auto=format&fit=crop" 
   },
   { 
     label: "Entertainment Space", 
-    img: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop" 
+    // NEW: Open-concept basement lounge/theater room instead of just a computer
+    img: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=800&auto=format&fit=crop" 
   },
   { 
     label: "Home Office", 
-    // NEW: Basement-style office with warm lighting
     img: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop" 
   },
 ];
