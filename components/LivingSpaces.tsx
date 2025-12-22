@@ -7,13 +7,13 @@ const spaces = [
     img: "https://images.unsplash.com/photo-1558603668-6570496b66f8?q=80&w=800&auto=format&fit=crop" 
   },
   { 
-    label: "Basement Kitchenette", 
+    label: "Basement Kitchen", 
     img: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?q=80&w=800&auto=format&fit=crop" 
   },
   { 
-    label: "Cozy Guest Bedroom", 
-    // NEW: Real basement bedroom with no windows and professional lighting
-    img: "https://images.unsplash.com/photo-1512918583167-02bd09b3f681?q=80&w=800&auto=format&fit=crop" 
+    label: "A Cozy Bedroom", 
+    // FINAL FIX: High-end basement bedroom with warm lighting and no windows
+    img: "https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=800&auto=format&fit=crop" 
   },
   { 
     label: "Modern Bathroom", 
@@ -21,7 +21,6 @@ const spaces = [
   },
   { 
     label: "Entertainment Space", 
-    // NEW: Open-concept basement lounge/theater room instead of just a computer
     img: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=800&auto=format&fit=crop" 
   },
   { 
