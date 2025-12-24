@@ -22,11 +22,11 @@ const spaces = [
     label: "Entertainment Space", 
     img: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=800&auto=format&fit=crop" 
   },
-  { 
-    label: "Home Office", 
-    // NEW: Bright basement office with high-set window near the ceiling
-    img: "https://images.unsplash.com/photo-1512918766755-ee50f14d9b4c?q=80&w=800&auto=format&fit=crop" 
-  },
+   {
+  label: "Home Office",
+  // NEW: Bright basement office with high set window near the ceiling
+  img: "/images/333333.jpg",
+},
 ];
 
 const LivingSpaces: React.FC = () => {
