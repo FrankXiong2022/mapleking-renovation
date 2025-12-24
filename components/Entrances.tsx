@@ -5,7 +5,7 @@ const Entrances: React.FC = () => {
   const images = [
     "https://images.unsplash.com/photo-1635108201275-f2858f087bd9?auto=format&fit=crop&w=400&q=80",
     "/images/entrance-01.jpg.jpg",
-    "https://images.unsplash.com/photo-1628592102751-ba83b035e450?auto=format&fit=crop&w=400&q=80",
+    "/images/entrance-02.jpg.jpg",
     "https://images.unsplash.com/photo-1598928636135-d146006ff4be?auto=format&fit=crop&w=400&q=80",
     "https://images.unsplash.com/photo-1592595894519-32b569d15d27?auto=format&fit=crop&w=400&q=80",
     "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80",
