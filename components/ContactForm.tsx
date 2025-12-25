@@ -47,7 +47,7 @@ const ContactForm: React.FC = () => {
   }
 
   return (
-    <section id="contact-section" className="py-24 bg-gray-50">
+  <section id="contact-form" className="py-24 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row">
           <div className="md:w-1/2 bg-brightBlue p-12 text-white flex flex-col justify-center">
