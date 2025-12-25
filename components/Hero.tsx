@@ -62,9 +62,19 @@ const Hero: React.FC = () => {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl shadow-blue-600/40">
-              Get a Free 3D Design & Free Estimate
-            </button>
+            <a 
+  href="#contact-form" 
+  style={{ 
+    display: 'inline-block', 
+    position: 'relative', 
+    zIndex: 9999, 
+    cursor: 'pointer',
+    textDecoration: 'none'
+  }}
+  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl shadow-blue-600/40"
+>
+  Get a Free 3D Design & Free Estimate
+</a>
           </div>
         </div>
 
