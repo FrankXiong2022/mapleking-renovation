@@ -77,7 +77,8 @@ const ContactForm: React.FC = () => {
                 <label className="block text-sm font-bold text-gray-700 mb-1">Email</label>
                 <input type="email" name="email" required className="w-full p-3 border rounded-xl" placeholder="john@example.com" />
               </div>
-              {/* City Selection - Each field wrapped in its own <div> for spacing */}
+              
+            {/* City / Area Selection */}
             <div>
               <label className="block text-sm font-bold text-gray-700 mb-1">City / Area</label>
               <select 
@@ -96,7 +97,7 @@ const ContactForm: React.FC = () => {
                   <option value="Mississauga">Mississauga</option>
                   <option value="Brampton">Brampton</option>
                 </optgroup>
-                <optgroup label="West & North (Excl. Kitchener/Waterloo)">
+                <optgroup label="West & North">
                   <option value="Oakville">Oakville</option>
                   <option value="Milton">Milton</option>
                   <option value="Barrie">Barrie / Innisfil / Bradford</option>
@@ -105,6 +106,22 @@ const ContactForm: React.FC = () => {
                   <option value="Pickering-Ajax">Pickering / Ajax</option>
                   <option value="Whitby-Oshawa">Whitby / Oshawa</option>
                 </optgroup>
+                <option value="Other">Other (Please specify in details)</option>
+              </select>
+            </div>
+
+            {/* Simplified Building Permit Question */}
+            <div>
+              <label className="block text-sm font-bold text-gray-700 mb-1">Do you need a Building Permit?</label>
+              <select 
+                name="permit_status" 
+                required 
+                className="w-full p-3 border rounded-xl outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option value="">Please select</option>
+                <option value="Yes">Yes, I need to apply for a permit</option>
+                <option value="No">No, I don't need a permit</option>
+                <option value="Not-Sure">I'm not sure if I need one</option>
               </select>
             </div>
 
@@ -125,7 +142,7 @@ const ContactForm: React.FC = () => {
             </div>
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">Project Details</label>
-                <textarea name="message" rows={3} className="w-full p-3 border rounded-xl" placeholder="Tell us about your basement..."></textarea>
+              <textarea name="message" rows={3} className="w-full p-3 border rounded-xl" placeholder="Please tell us about your project (e.g., basement size, current condition, what rooms you want to add, and any specific ideas you have)."></textarea>
               </div>
               <button 
                 type="submit" 
