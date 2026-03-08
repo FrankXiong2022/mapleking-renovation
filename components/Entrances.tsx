@@ -28,6 +28,79 @@ const Entrances: React.FC = () => {
           </div>
         </div>
 
+      <div className="flex flex-col items-center mb-10">
+
+        <div className="w-full max-w-[360px] rounded-xl overflow-hidden shadow-lg">
+          <iframe
+            width="100%"
+            height="640"
+            src="https://www.youtube.com/embed/YojGd3GwOQo"
+            title="MapleKing Renovation Bathroom Project"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        <div className="w-full max-w-2xl mt-6 text-left">
+
+          <h3 className="text-lg font-bold text-gray-900 mb-2">
+            项目说明
+          </h3>
+
+          <p className="text-gray-700 leading-relaxed mb-4">
+            这个项目位于多伦多地区，是一个地下室出租房装修工程，包括两个卫生间一起翻新。
+          </p>
+
+          <p className="text-gray-700 leading-relaxed mb-4">
+            竹木纤维墙板装修的优势主要有以下几点：
+          </p>
+
+          <p className="text-gray-700 leading-relaxed mb-6">
+            第一，装修速度快，节省材料。<br/>
+            第二，材料本身具有防水和阻燃性能。<br/>
+            第三，作为一种现代装修材料，可以减少人工投入。<br/>
+            第四，它减少了很多施工流程，大大缩短了工作时间。<br/>
+            第五，施工过程中没有灰尘，整体非常干净。
+          </p>
+
+
+          <h3 className="text-lg font-bold text-gray-900 mb-2">
+            Project Description
+          </h3>
+
+          <p className="text-gray-700 leading-relaxed mb-4">
+            This project is located in Toronto and is part of a basement rental renovation project,
+            including the renovation of two washrooms.
+          </p>
+
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Bamboo-fiber wall panels have several advantages in renovation projects:
+          </p>
+
+          <p className="text-gray-700 leading-relaxed mb-6">
+            First, the installation is fast and reduces material waste.<br/>
+            Second, the material itself has waterproof and fire-resistant properties.<br/>
+            Third, as a modern renovation material, it can reduce labor requirements.<br/>
+            Fourth, it simplifies many construction steps and greatly shortens project time.<br/>
+            Fifth, the construction process produces almost no dust and keeps the site clean.
+          </p>
+
+
+          <a
+            href="https://www.youtube.com/shorts/YojGd3GwOQo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-blue-600 font-semibold hover:underline"
+          >
+            ▶ Watch on YouTube
+          </a>
+
+        </div>
+
+      </div>
+
+        
       <div className="flex justify-center mb-8">
         <div className="w-full max-w-[360px] rounded-xl overflow-hidden shadow-lg">
           <iframe
