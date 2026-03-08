@@ -100,7 +100,9 @@ const Entrances: React.FC = () => {
 
       </div>
 
-        
+{/* 
+Youtube 插件
+      
       <div className="flex justify-center mb-8">
         <div className="w-full max-w-[360px] rounded-xl overflow-hidden shadow-lg">
           <iframe
@@ -114,6 +116,7 @@ const Entrances: React.FC = () => {
           ></iframe>
         </div>
       </div>
+ */}  
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {images.map((img, idx) => (
