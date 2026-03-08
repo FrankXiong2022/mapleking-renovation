@@ -28,6 +28,20 @@ const Entrances: React.FC = () => {
           </div>
         </div>
 
+      <div className="flex justify-center mb-8">
+        <div className="w-full max-w-[360px] rounded-xl overflow-hidden shadow-lg">
+          <iframe
+            width="100%"
+            height="640"
+            src="https://www.youtube.com/embed/YojGd3GwOQo"
+            title="MapleKing Renovation Short Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+        
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {images.map((img, idx) => (
             <div key={idx} className="aspect-square rounded-xl overflow-hidden border border-gray-100 hover:ring-4 hover:ring-brightBlue transition-all cursor-zoom-in">
