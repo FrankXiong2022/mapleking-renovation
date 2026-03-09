@@ -34,6 +34,108 @@ const Entrances: React.FC = () => {
     <iframe
       width="100%"
       height="640"
+      src="https://www.youtube.com/embed/rOBCX8Y2TXk"
+      title="Markham Bathroom Countertop Refinishing Project"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+    ></iframe>
+  </div>
+
+  <div className="w-full max-w-2xl mt-6 text-left">
+
+    <h3 className="text-lg font-bold text-gray-900 mb-3">
+      Project Description
+    </h3>
+
+    <p className="text-gray-700 leading-relaxed mb-4">
+
+📍 项目地点： Markham（多伦多地区住宅）  
+📅 完工时间： 2026年3月  
+🏠 项目内容： 卫生间手盆台面整体翻新  
+👫 客户情况： 自住房旧卫生间局部翻新项目  
+
+本项目主要针对老旧手盆台面严重污染的问题。由于长期使用，污渍已经渗入材料内部，普通清洁已经无法恢复原状。如果按照传统方式处理，一般需要拆除旧台面并更换新的台面，施工过程会产生大量垃圾、噪音和灰尘，同时成本也比较高。  
+
+因此，本项目采用台面表面翻新工艺，无需拆除原有结构，通过专业施工恢复整体外观效果。  
+
+翻新施工步骤主要包括：  
+
+表面处理  
+先清理台面表面的浮尘和松散层，对基层进行加固处理。  
+
+底色统一处理  
+使用白色底层材料将整个台面统一涂刷，相当于形成一层干净的基础底色。  
+
+手工纹理制作  
+在底色基础上手工绘制白色大理石纹理效果，包括台面平面和立边位置，使整体外观更加自然。  
+
+表面封层保护  
+最后进行表面保护层施工，使台面更加耐磨、易清洁。  
+
+施工完成后，原本陈旧、难以清洁的手盆台面，整体效果焕然一新，看起来像新的大理石台面，同时避免了拆除更换带来的复杂施工过程。  
+
+这种翻新方式的优势在于：  
+
+无需拆除原有台面  
+施工时间短  
+垃圾和灰尘少  
+整体成本更低  
+外观效果接近全新台面  
+
+对于很多老旧卫生间台面、石材台面或人造石台面，如果结构仍然完好，通过这种方式翻新，往往是一种更加经济、快速的解决方案。  
+
+
+📍 Location: Markham (Residential project in the Greater Toronto Area)  
+📅 Completion Time: March 2026  
+🏠 Project Scope: Bathroom sink countertop refinishing  
+👫 Client: Partial renovation of an older bathroom in a private residence  
+
+This project focused on solving the problem of a heavily stained and aged bathroom sink countertop. After years of use, stains had penetrated deep into the material, making normal cleaning ineffective.  
+
+With traditional renovation methods, the old countertop would usually need to be removed and replaced with a new one. This process typically produces a large amount of construction debris, noise, and dust, and also involves higher costs.  
+
+For this project, we used a professional countertop surface refinishing method. The existing structure remains in place, and the overall appearance is restored through specialized surface treatment.  
+
+The renovation process mainly includes the following steps:  
+
+Surface preparation  
+First, loose particles and dust are removed from the surface, and the base layer is reinforced to ensure proper adhesion.  
+
+Base color application  
+A white base material is applied across the entire countertop, creating a clean and uniform foundation layer.  
+
+Handcrafted marble texture  
+On top of the base layer, white marble-like textures are hand-painted across both the countertop surface and the vertical edges to create a natural stone appearance.  
+
+Protective top coating  
+Finally, a protective coating is applied to make the surface more durable, wear-resistant, and easy to clean.  
+
+After the renovation is completed, the previously aged and difficult-to-clean countertop looks completely refreshed. The final appearance resembles a brand-new marble countertop, while avoiding the complicated demolition and replacement process.  
+
+The advantages of this refinishing method include:  
+
+No need to remove the existing countertop  
+Short construction time  
+Less dust and construction waste  
+Lower overall cost  
+Appearance similar to a brand-new countertop  
+
+For many older bathroom countertops, natural stone surfaces, or engineered stone countertops that are still structurally sound, this refinishing method is often a more economical and efficient solution.
+
+    </p>
+
+  </div>
+
+</div>
+
+        
+<div className="flex flex-col items-center mb-10">
+
+  <div className="w-full max-w-[360px] rounded-xl overflow-hidden shadow-lg">
+    <iframe
+      width="100%"
+      height="640"
       src="https://www.youtube.com/embed/L9in8QiSCGw"
       title="Barrie Bathroom Renovation Project"
       frameBorder="0"
